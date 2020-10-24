@@ -1,13 +1,9 @@
 import React from "react";
 import { Container, Paper, Chip } from "@material-ui/core";
-// Import from cars.json
 
 const Car = (props) => {
   const id = props.match.params.id;
   {
-    // Change cars to props.cars
-    // Remove the cars.json
-    // Import above
   }
   const car = props.cars.find((c) => c.id == id);
 
